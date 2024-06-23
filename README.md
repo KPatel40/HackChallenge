@@ -23,3 +23,25 @@ OrganizeTable: Allows editing of vinyl details like title, artist, and genre.
 NetworkManager: Handles HTTP requests to fetch vinyl data from a remote server.
 
 VinylData: Represents vinyl information including ID, name, artist, year, image, songs, and users.
+
+# Installation
+
+Clone the repository and open it in Xcode with the following code:
+
+    git clone https://github.com/your-username/your-repository.git
+    
+    cd your-repository
+    
+    open VinylCollection.xcodeproj
+
+Ensure you have Xcode installed on your macOS system.
+
+# Usage
+
+Run the application on a simulator or a physical device.
+
+The main screen (ViewController) lists all vinyl items fetched from the server.
+
+Tap on a vinyl item to view details or edit its information in the OrganizeTable view.
+
+Changes made in OrganizeTable are updated in real-time on the main screen (ViewController).
